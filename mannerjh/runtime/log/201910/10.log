@@ -1,0 +1,23 @@
+---------------------------------------------------------------
+[ 2019-10-10T11:50:10+08:00 ] 127.0.0.1 GET www.mannerjh.com/index.php/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.071552s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.177237s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.002240s ]
+---------------------------------------------------------------
+[ 2019-10-10T11:50:27+08:00 ] 127.0.0.1 POST www.mannerjh.com/index.php/index/user/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000874s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.082352s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `username` = 'root' LIMIT 1 [ RunTime:0.000639s ]
+---------------------------------------------------------------
+[ 2019-10-10T11:50:52+08:00 ] 127.0.0.1 POST www.mannerjh.com/index.php/api/sms/send.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000998s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_sms` [ RunTime:0.123355s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_sms` WHERE  `mobile` = '18439915503'  AND `event` = 'register' ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_sms` WHERE  `ip` = '127.0.0.1'  AND `createtime` >  1570675852 LIMIT 1 [ RunTime:0.001513s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.005574s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `mobile` = '18439915503' LIMIT 1 [ RunTime:0.000479s ]
+---------------------------------------------------------------
+[ 2019-10-10T11:51:32+08:00 ] 127.0.0.1 GET www.mannerjh.com/index.php/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011245s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.007363s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.000338s ]
