@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:61:"E:\mannerjh\public/../application/index\view\index\index.html";i:1570347773;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:75:"D:\www\FastAdmin\mannerjh\public/../application/index\view\index\index.html";i:1571018976;}*/ ?>
 <!DOCTYPE html>
 <html>
 

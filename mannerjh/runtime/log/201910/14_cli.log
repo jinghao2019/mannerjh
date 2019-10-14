@@ -1,0 +1,316 @@
+[ 2019-10-14T11:14:41+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000134s ]
+[ info ] [ LOG ] INIT File
+[ 2019-10-14T11:14:41+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-10-14T11:14:41+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001624s ]
+[ 2019-10-14T11:14:41+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-10-14T11:14:41+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001721s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2019-10-14T11:14:41+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'shop' [ RunTime:0.001225s ]
+[ 2019-10-14T11:14:41+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_shop' [ RunTime:0.000928s ]
+[ 2019-10-14T11:14:41+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'fastadmin' AND table_name = 'fa_shop' ORDER BY ORDINAL_POSITION [ RunTime:0.007332s ]
+[ 2019-10-14T11:15:23+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000253s ]
+[ info ] [ LOG ] INIT File
+[ 2019-10-14T11:15:23+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-10-14T11:15:23+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002208s ]
+[ 2019-10-14T11:15:23+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-10-14T11:15:23+08:00 ][ info ] [ LANG ] D:\www\FastAdmin\mannerjh\application\admin\lang/zh-cn.php
+[ 2019-10-14T11:15:23+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001560s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2019-10-14T11:15:24+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.007592s ]
+[ 2019-10-14T11:15:24+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `name` = 'shop' LIMIT 1 [ RunTime:0.000562s ]
+[ 2019-10-14T11:15:24+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'shop/index' LIMIT 1 [ RunTime:0.000430s ]
+[ 2019-10-14T11:15:24+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'shop/add' LIMIT 1 [ RunTime:0.000398s ]
+[ 2019-10-14T11:15:24+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'shop/edit' LIMIT 1 [ RunTime:0.000376s ]
+[ 2019-10-14T11:15:24+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'shop/del' LIMIT 1 [ RunTime:0.000367s ]
+[ 2019-10-14T11:15:24+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'shop/multi' LIMIT 1 [ RunTime:0.000347s ]
+[ 2019-10-14T11:15:24+08:00 ][ sql ] [ SQL ] UPDATE `fa_auth_rule`  SET `pid`=86,`name`='shop/index',`icon`='fa fa-circle-o',`title`='查看',`ismenu`=0,`status`='normal',`updatetime`=1571022924  WHERE  `id` = 73 [ RunTime:0.019721s ]
+[ 2019-10-14T11:15:24+08:00 ][ sql ] [ SQL ] UPDATE `fa_auth_rule`  SET `pid`=86,`name`='shop/add',`icon`='fa fa-circle-o',`title`='添加',`ismenu`=0,`status`='normal',`updatetime`=1571022924  WHERE  `id` = 74 [ RunTime:0.000396s ]
+[ 2019-10-14T11:15:24+08:00 ][ sql ] [ SQL ] UPDATE `fa_auth_rule`  SET `pid`=86,`name`='shop/edit',`icon`='fa fa-circle-o',`title`='编辑',`ismenu`=0,`status`='normal',`updatetime`=1571022924  WHERE  `id` = 75 [ RunTime:0.000384s ]
+[ 2019-10-14T11:15:24+08:00 ][ sql ] [ SQL ] UPDATE `fa_auth_rule`  SET `pid`=86,`name`='shop/del',`icon`='fa fa-circle-o',`title`='删除',`ismenu`=0,`status`='normal',`updatetime`=1571022924  WHERE  `id` = 76 [ RunTime:0.000380s ]
+[ 2019-10-14T11:15:24+08:00 ][ sql ] [ SQL ] UPDATE `fa_auth_rule`  SET `pid`=86,`name`='shop/multi',`icon`='fa fa-circle-o',`title`='批量更新',`ismenu`=0,`status`='normal',`updatetime`=1571022924  WHERE  `id` = 77 [ RunTime:0.000383s ]
+[ 2019-10-14T11:17:51+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000136s ]
+[ info ] [ LOG ] INIT File
+[ 2019-10-14T11:17:51+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-10-14T11:17:51+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001599s ]
+[ 2019-10-14T11:17:51+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-10-14T11:17:51+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001392s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2019-10-14T11:17:51+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'shop' [ RunTime:0.000839s ]
+[ 2019-10-14T11:17:51+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_shop' [ RunTime:0.000773s ]
+[ 2019-10-14T11:19:01+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000149s ]
+[ info ] [ LOG ] INIT File
+[ 2019-10-14T11:19:01+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-10-14T11:19:01+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001547s ]
+[ 2019-10-14T11:19:30+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000157s ]
+[ info ] [ LOG ] INIT File
+[ 2019-10-14T11:19:30+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-10-14T11:19:30+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001639s ]
+[ 2019-10-14T11:19:30+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-10-14T11:19:30+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001468s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2019-10-14T11:19:30+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'shop' [ RunTime:0.000817s ]
+[ 2019-10-14T11:19:30+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_shop' [ RunTime:0.000726s ]
+[ 2019-10-14T11:19:30+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'fastadmin' AND table_name = 'fa_shop' ORDER BY ORDINAL_POSITION [ RunTime:0.005626s ]
+[ 2019-10-14T11:25:35+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000157s ]
+[ info ] [ LOG ] INIT File
+[ 2019-10-14T11:25:35+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-10-14T11:25:35+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001579s ]
+[ 2019-10-14T11:25:35+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-10-14T11:25:35+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.011102s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2019-10-14T11:25:35+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'area' [ RunTime:0.000812s ]
+[ 2019-10-14T11:25:36+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_area' [ RunTime:0.046204s ]
+[ 2019-10-14T11:25:36+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'fastadmin' AND table_name = 'fa_area' ORDER BY ORDINAL_POSITION [ RunTime:0.007859s ]
+[ 2019-10-14T11:26:42+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000131s ]
+[ info ] [ LOG ] INIT File
+[ 2019-10-14T11:26:42+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-10-14T11:26:42+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001590s ]
+[ 2019-10-14T11:26:42+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-10-14T11:26:42+08:00 ][ info ] [ LANG ] D:\www\FastAdmin\mannerjh\application\admin\lang/zh-cn.php
+[ 2019-10-14T11:26:42+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001325s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2019-10-14T11:26:42+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.005297s ]
+[ 2019-10-14T11:26:42+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `name` = 'shop' LIMIT 1 [ RunTime:0.000474s ]
+[ 2019-10-14T11:26:42+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `name` = 'shop/area' LIMIT 1 [ RunTime:0.000415s ]
+[ 2019-10-14T11:26:42+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (86 , 'shop/area' , 'Area' , 'fa fa-circle-o' , '' , 1 , 'normal' , 1571023602 , 1571023602) [ RunTime:0.067854s ]
+[ 2019-10-14T11:26:42+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'shop/area/index' LIMIT 1 [ RunTime:0.000388s ]
+[ 2019-10-14T11:26:42+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'shop/area/add' LIMIT 1 [ RunTime:0.000364s ]
+[ 2019-10-14T11:26:42+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'shop/area/edit' LIMIT 1 [ RunTime:0.000346s ]
+[ 2019-10-14T11:26:42+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'shop/area/del' LIMIT 1 [ RunTime:0.000335s ]
+[ 2019-10-14T11:26:42+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'shop/area/multi' LIMIT 1 [ RunTime:0.000310s ]
+[ 2019-10-14T11:26:42+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 118 , 'shop/area/index' , 'fa fa-circle-o' , '查看' , 0 , 'normal' , 1571023602 , 1571023602) [ RunTime:0.000323s ]
+[ 2019-10-14T11:26:42+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 118 , 'shop/area/add' , 'fa fa-circle-o' , '添加' , 0 , 'normal' , 1571023602 , 1571023602) [ RunTime:0.000351s ]
+[ 2019-10-14T11:26:42+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 118 , 'shop/area/edit' , 'fa fa-circle-o' , '编辑' , 0 , 'normal' , 1571023602 , 1571023602) [ RunTime:0.000295s ]
+[ 2019-10-14T11:26:42+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 118 , 'shop/area/del' , 'fa fa-circle-o' , '删除' , 0 , 'normal' , 1571023602 , 1571023602) [ RunTime:0.000285s ]
+[ 2019-10-14T11:26:42+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 118 , 'shop/area/multi' , 'fa fa-circle-o' , '批量更新' , 0 , 'normal' , 1571023602 , 1571023602) [ RunTime:0.000308s ]
+[ 2019-10-14T11:28:19+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000139s ]
+[ info ] [ LOG ] INIT File
+[ 2019-10-14T11:28:19+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-10-14T11:28:19+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001542s ]
+[ 2019-10-14T11:28:19+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-10-14T11:28:19+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001462s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2019-10-14T11:28:19+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'shop_sep' [ RunTime:0.000780s ]
+[ 2019-10-14T11:28:19+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_shop_sep' [ RunTime:0.000794s ]
+[ 2019-10-14T11:28:19+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'fastadmin' AND table_name = 'fa_shop_sep' ORDER BY ORDINAL_POSITION [ RunTime:0.006401s ]
+[ 2019-10-14T11:29:14+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000123s ]
+[ info ] [ LOG ] INIT File
+[ 2019-10-14T11:29:14+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-10-14T11:29:14+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001564s ]
+[ 2019-10-14T11:29:14+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-10-14T11:29:31+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000162s ]
+[ info ] [ LOG ] INIT File
+[ 2019-10-14T11:29:31+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-10-14T11:29:31+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001581s ]
+[ 2019-10-14T11:29:31+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-10-14T11:29:42+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000146s ]
+[ info ] [ LOG ] INIT File
+[ 2019-10-14T11:29:42+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-10-14T11:29:42+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002107s ]
+[ 2019-10-14T11:29:42+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-10-14T11:30:59+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000119s ]
+[ info ] [ LOG ] INIT File
+[ 2019-10-14T11:30:59+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-10-14T11:30:59+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001616s ]
+[ 2019-10-14T11:30:59+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-10-14T11:30:59+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001401s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2019-10-14T11:30:59+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'shop_sep' [ RunTime:0.000683s ]
+[ 2019-10-14T11:30:59+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_shop_sep' [ RunTime:0.000958s ]
+[ 2019-10-14T11:30:59+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'fastadmin' AND table_name = 'fa_shop_sep' ORDER BY ORDINAL_POSITION [ RunTime:0.006790s ]
+[ 2019-10-14T11:31:03+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000155s ]
+[ info ] [ LOG ] INIT File
+[ 2019-10-14T11:31:03+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-10-14T11:31:03+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001532s ]
+[ 2019-10-14T11:31:03+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-10-14T11:33:05+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000129s ]
+[ info ] [ LOG ] INIT File
+[ 2019-10-14T11:33:05+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-10-14T11:33:05+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001821s ]
+[ 2019-10-14T11:33:05+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-10-14T11:33:05+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001336s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2019-10-14T11:33:05+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'shop_sep' [ RunTime:0.000661s ]
+[ 2019-10-14T11:33:05+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_shop_sep' [ RunTime:0.000684s ]
+[ 2019-10-14T11:33:19+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000139s ]
+[ info ] [ LOG ] INIT File
+[ 2019-10-14T11:33:19+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-10-14T11:33:19+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001565s ]
+[ 2019-10-14T11:33:19+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-10-14T11:33:19+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001416s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2019-10-14T11:33:19+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'shop_sep' [ RunTime:0.000712s ]
+[ 2019-10-14T11:33:19+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_shop_sep' [ RunTime:0.000680s ]
+[ 2019-10-14T11:33:19+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'fastadmin' AND table_name = 'fa_shop_sep' ORDER BY ORDINAL_POSITION [ RunTime:0.007108s ]
+[ 2019-10-14T11:34:15+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000142s ]
+[ info ] [ LOG ] INIT File
+[ 2019-10-14T11:34:15+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-10-14T11:34:15+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001566s ]
+[ 2019-10-14T11:34:15+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-10-14T11:36:22+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000122s ]
+[ info ] [ LOG ] INIT File
+[ 2019-10-14T11:36:22+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-10-14T11:36:22+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001632s ]
+[ 2019-10-14T11:36:22+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-10-14T11:36:22+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001461s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2019-10-14T11:36:22+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'shop_sep' [ RunTime:0.000819s ]
+[ 2019-10-14T11:36:22+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_shop_sep' [ RunTime:0.000813s ]
+[ 2019-10-14T11:36:31+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000119s ]
+[ info ] [ LOG ] INIT File
+[ 2019-10-14T11:36:31+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-10-14T11:36:31+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001561s ]
+[ 2019-10-14T11:36:31+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-10-14T11:36:31+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001427s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2019-10-14T11:36:31+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'shop_sep' [ RunTime:0.000739s ]
+[ 2019-10-14T11:36:31+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_shop_sep' [ RunTime:0.000768s ]
+[ 2019-10-14T11:36:31+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'fastadmin' AND table_name = 'fa_shop_sep' ORDER BY ORDINAL_POSITION [ RunTime:0.007093s ]
+[ 2019-10-14T11:37:20+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000133s ]
+[ info ] [ LOG ] INIT File
+[ 2019-10-14T11:37:20+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-10-14T11:37:20+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001606s ]
+[ 2019-10-14T11:37:35+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000121s ]
+[ info ] [ LOG ] INIT File
+[ 2019-10-14T11:37:35+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-10-14T11:37:35+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001604s ]
+[ 2019-10-14T11:37:42+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000134s ]
+[ info ] [ LOG ] INIT File
+[ 2019-10-14T11:37:42+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-10-14T11:37:42+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001733s ]
+[ 2019-10-14T11:37:42+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-10-14T11:38:47+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000141s ]
+[ info ] [ LOG ] INIT File
+[ 2019-10-14T11:38:47+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-10-14T11:38:47+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001580s ]
+[ 2019-10-14T11:39:13+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000151s ]
+[ info ] [ LOG ] INIT File
+[ 2019-10-14T11:39:13+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-10-14T11:39:13+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003087s ]
+[ 2019-10-14T11:44:22+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000148s ]
+[ info ] [ LOG ] INIT File
+[ 2019-10-14T11:44:22+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-10-14T11:44:22+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001729s ]
+[ 2019-10-14T11:44:22+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-10-14T11:44:22+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001391s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2019-10-14T11:44:22+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'shop_sep' [ RunTime:0.000694s ]
+[ 2019-10-14T11:44:22+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_shop_sep' [ RunTime:0.000688s ]
+[ 2019-10-14T11:44:33+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000131s ]
+[ info ] [ LOG ] INIT File
+[ 2019-10-14T11:44:33+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-10-14T11:44:33+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001621s ]
+[ 2019-10-14T11:44:33+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-10-14T11:44:33+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001454s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2019-10-14T11:44:33+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'shop_sep' [ RunTime:0.000739s ]
+[ 2019-10-14T11:44:33+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_shop_sep' [ RunTime:0.000714s ]
+[ 2019-10-14T11:44:33+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'fastadmin' AND table_name = 'fa_shop_sep' ORDER BY ORDINAL_POSITION [ RunTime:0.006883s ]
+[ 2019-10-14T11:44:53+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000137s ]
+[ info ] [ LOG ] INIT File
+[ 2019-10-14T11:44:53+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-10-14T11:44:53+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001556s ]
+[ 2019-10-14T11:44:53+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-10-14T11:48:04+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000124s ]
+[ info ] [ LOG ] INIT File
+[ 2019-10-14T11:48:04+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-10-14T11:48:04+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001587s ]
+[ 2019-10-14T11:48:38+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000142s ]
+[ info ] [ LOG ] INIT File
+[ 2019-10-14T11:48:38+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-10-14T11:48:38+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001594s ]
+[ 2019-10-14T11:48:38+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-10-14T11:48:56+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000135s ]
+[ info ] [ LOG ] INIT File
+[ 2019-10-14T11:48:56+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-10-14T11:48:56+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001615s ]
+[ 2019-10-14T11:48:56+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-10-14T11:49:03+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000132s ]
+[ info ] [ LOG ] INIT File
+[ 2019-10-14T11:49:03+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-10-14T11:49:03+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001563s ]
+[ 2019-10-14T11:51:07+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000125s ]
+[ info ] [ LOG ] INIT File
+[ 2019-10-14T11:51:07+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-10-14T11:51:07+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001591s ]
+[ 2019-10-14T11:51:07+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-10-14T11:51:07+08:00 ][ info ] [ LANG ] D:\www\FastAdmin\mannerjh\application\admin\lang/zh-cn.php
+[ 2019-10-14T11:51:07+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001473s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2019-10-14T11:51:07+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.005920s ]
+[ 2019-10-14T11:51:07+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `name` = 'shop' LIMIT 1 [ RunTime:0.000494s ]
+[ 2019-10-14T11:51:07+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `name` = 'shop/shop_sep' LIMIT 1 [ RunTime:0.000391s ]
+[ 2019-10-14T11:51:07+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (86 , 'shop/shop_sep' , 'ShopSep' , 'fa fa-circle-o' , '' , 1 , 'normal' , 1571025067 , 1571025067) [ RunTime:0.051294s ]
+[ 2019-10-14T11:51:07+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'shop/shop_sep/index' LIMIT 1 [ RunTime:0.000656s ]
+[ 2019-10-14T11:51:07+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'shop/shop_sep/add' LIMIT 1 [ RunTime:0.000632s ]
+[ 2019-10-14T11:51:07+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'shop/shop_sep/edit' LIMIT 1 [ RunTime:0.000576s ]
+[ 2019-10-14T11:51:07+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'shop/shop_sep/del' LIMIT 1 [ RunTime:0.000551s ]
+[ 2019-10-14T11:51:07+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'shop/shop_sep/multi' LIMIT 1 [ RunTime:0.000579s ]
+[ 2019-10-14T11:51:07+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 130 , 'shop/shop_sep/index' , 'fa fa-circle-o' , '查看' , 0 , 'normal' , 1571025067 , 1571025067) [ RunTime:0.000680s ]
+[ 2019-10-14T11:51:07+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 130 , 'shop/shop_sep/add' , 'fa fa-circle-o' , '添加' , 0 , 'normal' , 1571025067 , 1571025067) [ RunTime:0.000645s ]
+[ 2019-10-14T11:51:07+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 130 , 'shop/shop_sep/edit' , 'fa fa-circle-o' , '编辑' , 0 , 'normal' , 1571025067 , 1571025067) [ RunTime:0.000615s ]
+[ 2019-10-14T11:51:07+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 130 , 'shop/shop_sep/del' , 'fa fa-circle-o' , '删除' , 0 , 'normal' , 1571025067 , 1571025067) [ RunTime:0.000606s ]
+[ 2019-10-14T11:51:07+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 130 , 'shop/shop_sep/multi' , 'fa fa-circle-o' , '批量更新' , 0 , 'normal' , 1571025067 , 1571025067) [ RunTime:0.000592s ]
+[ 2019-10-14T13:43:56+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000144s ]
+[ info ] [ LOG ] INIT File
+[ 2019-10-14T13:43:56+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-10-14T13:43:56+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001592s ]
+[ 2019-10-14T13:43:56+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-10-14T13:43:56+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001305s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2019-10-14T13:43:56+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'testdemo' [ RunTime:0.000748s ]
+[ 2019-10-14T13:43:56+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_testdemo' [ RunTime:0.000795s ]
+[ 2019-10-14T13:43:56+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'fastadmin' AND table_name = 'fa_testdemo' ORDER BY ORDINAL_POSITION [ RunTime:0.007032s ]
+[ 2019-10-14T13:44:22+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000134s ]
+[ info ] [ LOG ] INIT File
+[ 2019-10-14T13:44:22+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-10-14T13:44:22+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001547s ]
+[ 2019-10-14T13:44:22+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-10-14T13:44:22+08:00 ][ info ] [ LANG ] D:\www\FastAdmin\mannerjh\application\admin\lang/zh-cn.php
+[ 2019-10-14T13:44:22+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001374s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2019-10-14T13:44:22+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.005768s ]
+[ 2019-10-14T13:44:22+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `name` = 'testdemo' LIMIT 1 [ RunTime:0.000535s ]
+[ 2019-10-14T13:44:22+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (0 , 'testdemo' , '测试管理' , 'fa fa-circle-o' , '' , 1 , 'normal' , 1571031862 , 1571031862) [ RunTime:0.040361s ]
+[ 2019-10-14T13:44:22+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'testdemo/index' LIMIT 1 [ RunTime:0.000521s ]
+[ 2019-10-14T13:44:22+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'testdemo/recyclebin' LIMIT 1 [ RunTime:0.000446s ]
+[ 2019-10-14T13:44:22+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'testdemo/add' LIMIT 1 [ RunTime:0.000389s ]
+[ 2019-10-14T13:44:22+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'testdemo/edit' LIMIT 1 [ RunTime:0.000372s ]
+[ 2019-10-14T13:44:22+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'testdemo/del' LIMIT 1 [ RunTime:0.000380s ]
+[ 2019-10-14T13:44:22+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'testdemo/destroy' LIMIT 1 [ RunTime:0.000351s ]
+[ 2019-10-14T13:44:22+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'testdemo/restore' LIMIT 1 [ RunTime:0.000333s ]
+[ 2019-10-14T13:44:22+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'testdemo/multi' LIMIT 1 [ RunTime:0.000329s ]
+[ 2019-10-14T13:44:22+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 136 , 'testdemo/index' , 'fa fa-circle-o' , '查看' , 0 , 'normal' , 1571031862 , 1571031862) [ RunTime:0.000489s ]
+[ 2019-10-14T13:44:22+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 136 , 'testdemo/recyclebin' , 'fa fa-circle-o' , '回收站' , 0 , 'normal' , 1571031862 , 1571031862) [ RunTime:0.000899s ]
+[ 2019-10-14T13:44:22+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 136 , 'testdemo/add' , 'fa fa-circle-o' , '添加' , 0 , 'normal' , 1571031862 , 1571031862) [ RunTime:0.000254s ]
+[ 2019-10-14T13:44:22+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 136 , 'testdemo/edit' , 'fa fa-circle-o' , '编辑' , 0 , 'normal' , 1571031862 , 1571031862) [ RunTime:0.000249s ]
+[ 2019-10-14T13:44:22+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 136 , 'testdemo/del' , 'fa fa-circle-o' , '删除' , 0 , 'normal' , 1571031862 , 1571031862) [ RunTime:0.000216s ]
+[ 2019-10-14T13:44:22+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 136 , 'testdemo/destroy' , 'fa fa-circle-o' , '真实删除' , 0 , 'normal' , 1571031862 , 1571031862) [ RunTime:0.000233s ]
+[ 2019-10-14T13:44:22+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 136 , 'testdemo/restore' , 'fa fa-circle-o' , '还原' , 0 , 'normal' , 1571031862 , 1571031862) [ RunTime:0.000224s ]
+[ 2019-10-14T13:44:22+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 136 , 'testdemo/multi' , 'fa fa-circle-o' , '批量更新' , 0 , 'normal' , 1571031862 , 1571031862) [ RunTime:0.000238s ]
+[ 2019-10-14T14:42:44+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000142s ]
+[ info ] [ LOG ] INIT File
+[ 2019-10-14T14:42:44+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-10-14T14:42:44+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002115s ]
+[ 2019-10-14T14:42:44+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-10-14T14:42:44+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001469s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2019-10-14T14:42:44+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'testdemo' [ RunTime:0.021314s ]
+[ 2019-10-14T14:42:44+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_testdemo' [ RunTime:0.065315s ]
+[ 2019-10-14T14:42:55+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000139s ]
+[ info ] [ LOG ] INIT File
+[ 2019-10-14T14:42:55+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-10-14T14:42:55+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001648s ]
+[ 2019-10-14T14:42:55+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-10-14T14:42:55+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001299s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2019-10-14T14:42:55+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'testdemo' [ RunTime:0.001030s ]
+[ 2019-10-14T14:42:55+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_testdemo' [ RunTime:0.000803s ]
+[ 2019-10-14T14:42:55+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'fastadmin' AND table_name = 'fa_testdemo' ORDER BY ORDINAL_POSITION [ RunTime:0.005666s ]
+[ 2019-10-14T14:43:27+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000143s ]
+[ info ] [ LOG ] INIT File
+[ 2019-10-14T14:43:27+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-10-14T14:43:27+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001556s ]
+[ 2019-10-14T14:43:27+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-10-14T14:43:27+08:00 ][ info ] [ LANG ] D:\www\FastAdmin\mannerjh\application\admin\lang/zh-cn.php
+[ 2019-10-14T14:43:27+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001488s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2019-10-14T14:43:27+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.005599s ]
+[ 2019-10-14T14:43:27+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `name` = 'testdemo' LIMIT 1 [ RunTime:0.000449s ]
+[ 2019-10-14T14:43:27+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (0 , 'testdemo' , '测试管理' , 'fa fa-circle-o' , '' , 1 , 'normal' , 1571035407 , 1571035407) [ RunTime:0.045929s ]
+[ 2019-10-14T14:43:27+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'testdemo/index' LIMIT 1 [ RunTime:0.000306s ]
+[ 2019-10-14T14:43:27+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'testdemo/recyclebin' LIMIT 1 [ RunTime:0.000237s ]
+[ 2019-10-14T14:43:27+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'testdemo/add' LIMIT 1 [ RunTime:0.000216s ]
+[ 2019-10-14T14:43:27+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'testdemo/edit' LIMIT 1 [ RunTime:0.000194s ]
+[ 2019-10-14T14:43:27+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'testdemo/del' LIMIT 1 [ RunTime:0.000184s ]
+[ 2019-10-14T14:43:27+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'testdemo/destroy' LIMIT 1 [ RunTime:0.000185s ]
+[ 2019-10-14T14:43:27+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'testdemo/restore' LIMIT 1 [ RunTime:0.000177s ]
+[ 2019-10-14T14:43:27+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'testdemo/multi' LIMIT 1 [ RunTime:0.000185s ]
+[ 2019-10-14T14:43:27+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 145 , 'testdemo/index' , 'fa fa-circle-o' , '查看' , 0 , 'normal' , 1571035407 , 1571035407) [ RunTime:0.001429s ]
+[ 2019-10-14T14:43:27+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 145 , 'testdemo/recyclebin' , 'fa fa-circle-o' , '回收站' , 0 , 'normal' , 1571035407 , 1571035407) [ RunTime:0.000394s ]
+[ 2019-10-14T14:43:27+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 145 , 'testdemo/add' , 'fa fa-circle-o' , '添加' , 0 , 'normal' , 1571035407 , 1571035407) [ RunTime:0.000347s ]
+[ 2019-10-14T14:43:27+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 145 , 'testdemo/edit' , 'fa fa-circle-o' , '编辑' , 0 , 'normal' , 1571035407 , 1571035407) [ RunTime:0.000351s ]
+[ 2019-10-14T14:43:27+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 145 , 'testdemo/del' , 'fa fa-circle-o' , '删除' , 0 , 'normal' , 1571035407 , 1571035407) [ RunTime:0.000876s ]
+[ 2019-10-14T14:43:27+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 145 , 'testdemo/destroy' , 'fa fa-circle-o' , '真实删除' , 0 , 'normal' , 1571035407 , 1571035407) [ RunTime:0.000299s ]
+[ 2019-10-14T14:43:27+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 145 , 'testdemo/restore' , 'fa fa-circle-o' , '还原' , 0 , 'normal' , 1571035407 , 1571035407) [ RunTime:0.000290s ]
+[ 2019-10-14T14:43:27+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 145 , 'testdemo/multi' , 'fa fa-circle-o' , '批量更新' , 0 , 'normal' , 1571035407 , 1571035407) [ RunTime:0.000361s ]
