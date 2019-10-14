@@ -20,7 +20,7 @@ class Index extends Backend
     protected $layout = '';
 
     public function _initialize()
-    {
+    {echo 1;
         parent::_initialize();
     }
 
